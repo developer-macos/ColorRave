@@ -54,7 +54,34 @@ background-color: var(--color-for-background-menu);
 .background-img{
     background-image: url("./images/backgr-img-nike.png");
    background-size: 1940px;
-    height: 1458px;
+    height: 1058px;
     background-repeat: no-repeat;
     margin-top: 0px;
+}
+
+.cr{
+    color: white;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 72px;
+}
+
+.cr-2{
+        color: white;
+          font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.cr-1{
+        color: white;
+  font-size: 144px;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
 }
