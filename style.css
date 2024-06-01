@@ -10,7 +10,7 @@ background-color: var(--color-for-background-menu);
 .white-color a{
     color: white;
     text-decoration: none;
-    margin-left: 157px;
+    margin-left: 137px;
 }
 
 .benefits{
@@ -49,4 +49,12 @@ background-color: var(--color-for-background-menu);
 .l{
     color: white;
     margin-left: 10px;
+}
+
+.background-img{
+    background-image: url("./images/backgr-img-nike.png");
+   background-size: 1940px;
+    height: 1458px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
 }
