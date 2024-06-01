@@ -38,12 +38,12 @@ background-color: var(--color-for-background-menu);
 
 .img{
     margin-left: 168px;
-    margin-bottom: 14px;
 }
 
 .lang{
     color: #C7C7C7;
     text-decoration: none;
+    margin-left: 74px;
 }
 
 .l{
