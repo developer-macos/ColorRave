@@ -1,0 +1,18 @@
+:root{
+    --color-for-background-menu: #012D63;
+    --color: #C7C7C7;
+}
+
+.header{
+background-color: var(--color-for-background-menu);
+}
+
+.ul-menu li{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white-color{
+    color: white;
+}
