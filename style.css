@@ -7,12 +7,32 @@
 background-color: var(--color-for-background-menu);
 }
 
-.ul-menu li{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+.white-color a{
+    color: white;
+    text-decoration: none;
+    margin-left: 157px;
 }
 
-.white-color{
-    color: white;
+.benefits{
+    color: var(--color);
+    text-decoration: none;
+}
+
+.ul-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    max-height: 90px;
+}
+
+.ul-menu li{
+        text-decoration: none;
+            list-style: none;
+            margin-bottom: 30px;
+            margin-top: 30px;
+}
+
+.img{
+    margin-left: 168px;
+    margin-bottom: 14px;
 }
