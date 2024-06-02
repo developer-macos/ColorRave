@@ -53,7 +53,8 @@ background-color: var(--color-for-background-menu);
 
 .background-img{
     background-image: url("./images/backgr-img-nike.png");
-   background-size: 1940px;
+   background-size: cover;
+   background-position: center ;
     height: 1058px;
     background-repeat: no-repeat;
     margin-top: 0px;
@@ -122,7 +123,7 @@ margin-bottom: 13px;
 
 .section-background{
     background-image: url("./images/background.png");
-    background-size: 1940px;
+    background-size: cover;
     height: 606px;
     background-repeat: no-repeat;
 }
@@ -134,13 +135,11 @@ margin-bottom: 13px;
     flex-wrap: wrap;
     max-width: 1510px;
     max-height: 500px;
-    outline: #8E32C6 solid 2px;
-    margin-top: 0;
 }
 
 .ul-hero li{
-    margin-left: 145px;
-    margin-top: 105px;
+    margin-left: 140px;
+    margin-top: 85px;
 }
 
 .hr{
@@ -148,7 +147,7 @@ margin-bottom: 13px;
 }
 
 .container{
-    max-width: 1410px;
+    max-width: 1710px;
     margin: 0 auto;
     outline: solid 1px red;
 }
@@ -162,4 +161,19 @@ margin-bottom: 13px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 36px;
+  text-align: center;
+}
+
+.li--{
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+}
+
+.li-{
+    width: 350px;
+    height: 406px;
+    outline: 1px solid green;
+    padding-left: 95px;
+    padding-right: 95px;
 }
