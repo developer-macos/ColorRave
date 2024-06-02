@@ -24,6 +24,8 @@ background-color: var(--color-for-background-menu);
     flex-wrap: wrap;
     gap: 29px;
     max-height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .ul-menu li{
@@ -59,6 +61,7 @@ background-color: var(--color-for-background-menu);
     height: 1058px;
     background-repeat: no-repeat;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .cr{
@@ -70,6 +73,7 @@ background-color: var(--color-for-background-menu);
   font-size: 72px;
   margin-top: 0px;
   margin-bottom: 12px;
+  margin-left: 165px;
 }
 
 .cr-2{
@@ -79,6 +83,7 @@ background-color: var(--color-for-background-menu);
   font-style: normal;
   font-size: 18px;
   margin-bottom: 41px;
+  margin-left: 165px;
 }
 
 .cr-1{
@@ -104,6 +109,8 @@ background-color: var(--color-for-background-menu);
   font-size: 144px;
   color: white;
 margin-top: 10px;
+margin-left: 157px;
+margin-bottom: 13px;
 }
 
 .butt{
@@ -122,5 +129,33 @@ margin-top: 10px;
     background-size: 1940px;
     height: 606px;
     background-repeat: no-repeat;
+}
 
+.ul-hero{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1510px;
+    max-height: 500px;
+    outline: #8E32C6 solid 2px;
+}
+
+.ul-hero li{
+    margin-left: 145px;
+    margin-top: 105px;
+}
+
+.hr{
+    position:absolute;
+}
+
+.container{
+    max-width: 1410px;
+    margin: 0 auto;
+    outline: solid 1px red;
+}
+
+.div{
+    margin: 0 auto;
 }
