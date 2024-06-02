@@ -50,6 +50,7 @@ background-color: var(--color-for-background-menu);
 .l{
     color: white;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 .background-img{
@@ -118,6 +119,8 @@ margin-top: 10px;
 
 .section-background{
     background-image: url("./images/background.png");
-    width: 1440px;
+    background-size: 1940px;
     height: 606px;
+    background-repeat: no-repeat;
+
 }
