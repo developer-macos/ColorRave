@@ -205,3 +205,9 @@ margin-bottom: 13px;
   font-size: 48px;
   margin-left: 863px;
 }
+
+.li-2{
+    width: 255px;
+    height: 292px;
+    outline: 1px solid red;
+}
