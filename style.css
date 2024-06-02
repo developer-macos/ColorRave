@@ -40,7 +40,6 @@ background-color: var(--color-for-background-menu);
 }
 
 .img{
-    margin-left: 168px;
 }
 
 .lang{
@@ -158,4 +157,11 @@ margin-bottom: 13px;
 
 .div{
     margin: 0 auto;
+}
+
+.li-h2{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
