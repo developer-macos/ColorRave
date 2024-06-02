@@ -39,9 +39,6 @@ background-color: var(--color-for-background-menu);
   font-style: normal;
 }
 
-.img{
-}
-
 .lang{
     color: #C7C7C7;
     text-decoration: none;
@@ -138,6 +135,7 @@ margin-bottom: 13px;
     max-width: 1510px;
     max-height: 500px;
     outline: #8E32C6 solid 2px;
+    margin-top: 0;
 }
 
 .ul-hero li{
