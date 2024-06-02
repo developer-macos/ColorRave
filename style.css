@@ -227,15 +227,15 @@ margin-bottom: 13px;
 
 .cards{
     background-image: linear-gradient(#00E5E6 7%, #00A8F7 26%, #9A76F9 63%, #cc5ec2 100%);
-    width: 255px;
-    height: 292px;
+    width: 305px;
+    height: 350px;
     margin-left: 498px;
-    gap: 93px;
+    display: flex;
 }
 
 .cards-in{
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cards-in img{
@@ -248,4 +248,11 @@ margin-bottom: 13px;
               font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.cards-2{
+    background-image: linear-gradient(#FF68B4 0%, #FF45E1 26%, #CE3AFF 63%, #8961FF 100%);
+    margin-left: 93px;
+    width: 305px;
+    height: 350px;
 }
