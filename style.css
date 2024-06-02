@@ -1,6 +1,7 @@
 :root{
     --color-for-background-menu: #012D63;
     --color: #C7C7C7;
+    --color-for-backgr-butt: #8E32C6;
 }
 
 .header{
@@ -78,12 +79,33 @@ background-color: var(--color-for-background-menu);
 
 .cr-1{
         color: white;
-  font-size: 144px;
+  font-size: 48px;
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
+  margin-left: 196px;
+  margin: bottom 40px; ;
 }
 
 .div-img{
-    
+    margin-top: 94px;
+    margin-left: 171px;
+}
+
+.cr-3{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 144px;
+  color: white;
+}
+
+.butt{
+    background-color: #8E32C6;
+    width: 254px;
+    height: 67px;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
