@@ -230,12 +230,8 @@ margin-bottom: 13px;
     width: 305px;
     height: 350px;
     margin-left: 498px;
-    display: flex;
-}
-
-.cards-in{
-    display: flex;
-    flex-wrap: wrap;
+    list-style: none;
+    border-radius: 15px;
 }
 
 .cards-in img{
