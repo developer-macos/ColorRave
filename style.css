@@ -248,7 +248,8 @@ margin-bottom: 13px;
 
 .cards-2{
     background-image: linear-gradient(#FF68B4 0%, #FF45E1 26%, #CE3AFF 63%, #8961FF 100%);
-    margin-left: 93px;
     width: 305px;
     height: 350px;
+    border-radius: 15px;
+        margin-left: 498px;
 }
