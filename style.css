@@ -187,7 +187,7 @@ margin-bottom: 13px;
 .backgr-img-reviews{
     background-image: url(./images/flowers.png), url(./images/backgr-img-reviwes.png);
     background-size: 340px, cover;
-    height: 620px;
+    height: 920px;
     background-repeat: no-repeat;
     background-position: left bottom, center;
 }
@@ -251,5 +251,5 @@ margin-bottom: 13px;
     width: 305px;
     height: 350px;
     border-radius: 15px;
-        margin-left: 498px;
+    display: flexbox;
 }
