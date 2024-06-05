@@ -1,68 +1,68 @@
-:root{
-    --color-for-background-menu: #012D63;
-    --color: #C7C7C7;
-    --color-for-backgr-butt: #8E32C6;
+:root {
+  --color-for-background-menu: #012d63;
+  --color: #c7c7c7;
+  --color-for-backgr-butt: #8e32c6;
 }
 
-.header{
-background-color: var(--color-for-background-menu);
+.header {
+  background-color: var(--color-for-background-menu);
 }
 
-.white-color a{
-    color: white;
-    text-decoration: none;
-    margin-left: 137px;
+.white-color a {
+  color: white;
+  text-decoration: none;
+  margin-left: 137px;
 }
 
-.benefits{
-    color: var(--color);
-    text-decoration: none;
+.benefits {
+  color: var(--color);
+  text-decoration: none;
 }
 
-.ul-menu{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 29px;
-    max-height: 90px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.ul-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+  max-height: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.ul-menu li{
-        text-decoration: none;
-            list-style: none;
-            margin-bottom: 30px;
-            margin-top: 30px;
-            font-size: 24px;
+.ul-menu li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.lang{
-    color: #C7C7C7;
-    text-decoration: none;
-    margin-left: 74px;
+.lang {
+  color: #c7c7c7;
+  text-decoration: none;
+  margin-left: 74px;
 }
 
-.l{
-    color: white;
-    margin-left: 10px;
-    text-decoration: none;
+.l {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
 }
 
-.background-img{
-    background-image: url("./images/backgr-img-nike.png");
-   background-size: cover;
-   background-position: center ;
-    height: 1058px;
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.background-img {
+  background-image: url("./images/backgr-img-nike.png");
+  background-size: cover;
+  background-position: center;
+  height: 1058px;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.cr{
-    color: white;
+.cr {
+  color: white;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -73,9 +73,9 @@ background-color: var(--color-for-background-menu);
   margin-left: 165px;
 }
 
-.cr-2{
-        color: white;
-          font-family: "Roboto", sans-serif;
+.cr-2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
@@ -83,82 +83,83 @@ background-color: var(--color-for-background-menu);
   margin-left: 165px;
 }
 
-.cr-1{
-        color: white;
+.cr-1 {
+  color: white;
   font-size: 48px;
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 196px;
-  margin: bottom 40px; ;
+  margin: bottom 40px;
 }
 
-.div-img{
-    margin-top: 94px;
-    margin-left: 171px;
+.div-img {
+  margin-top: 94px;
+  margin-left: 171px;
 }
 
-.cr-3{
+.cr-3 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 144px;
   color: white;
-margin-top: 10px;
-margin-left: 157px;
-margin-bottom: 13px;
+  margin-top: 10px;
+  margin-left: 157px;
+  margin-bottom: 13px;
 }
 
-.butt{
-    background-color: #8E32C6;
-    width: 254px;
-    height: 67px;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 250px;
-    margin-left: 165px;
+.butt {
+  background-color: #8e32c6;
+  width: 254px;
+  height: 67px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 250px;
+  margin-left: 165px;
 }
 
-.section-background{
-    background-image: url("./images/background.png");
-    background-size: cover;
-    height: 606px;
-    background-repeat: no-repeat;
+.section-background {
+  background-image: url("./images/background.png");
+  background-size: cover;
+  height: 606px;
+  background-repeat: no-repeat;
 }
 
-.ul-hero{
-    list-style: none;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1510px;
-    max-height: 500px;
-    margin: 0;
+.ul-hero {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1510px;
+  max-height: 500px;
+  margin: 0;
 }
 
-.ul-hero li{
-    margin-left: 140px;
-    margin-top: 85px;
+.ul-hero li {
+  margin-left: 140px;
+  margin-top: 85px;
 }
 
-.hr{
-    position:absolute;
+.hr {
+  position: absolute;
 }
 
-.container{
-    max-width: 1710px;
-    margin: 0 auto;
-    outline: solid 1px red;
+.container {
+  max-width: 1710px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  outline: solid 1px red;
 }
 
-.div{
-    margin: 0 auto;
+.div {
+  margin: 0 auto;
 }
 
-.li-h2{
-      font-family: "Playfair Display", serif;
+.li-h2 {
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -166,40 +167,41 @@ margin-bottom: 13px;
   text-align: center;
 }
 
-.li--{
-    border-left: white solid 1px;
-    border-right: white solid 1px;
+.li-- {
+  border-left: white solid 1px;
+  border-right: white solid 1px;
 }
 
-.li-{
-    width: 350px;
-    height: 406px;
-    outline: 1px solid green;
-    padding-left: 95px;
-    padding-right: 95px;
+.li- {
+  width: 350px;
+  height: 406px;
+  outline: 1px solid green;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
-.li-1{
-    padding-left: 50px;
-    padding-right: 50px;
+.li-1 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.backgr-img-reviews{
-    background-image: url(./images/flowers.png), url(./images/backgr-img-reviwes.png);
-    background-size: 340px, cover;
-    height: 920px;
-    background-repeat: no-repeat;
-    background-position: left bottom, center;
+.backgr-img-reviews {
+  background-image: url(./images/flowers.png),
+    url(./images/backgr-img-reviwes.png);
+  background-size: 340px, cover;
+  height: 620px;
+  background-repeat: no-repeat;
+  background-position: left bottom, center;
 }
 
-.img-reviews{
-    margin-top: 169px;
+.img-reviews {
+  margin-top: 169px;
 }
 
-.reviews{
-    margin: 0;
-    color: white;
-          font-family: "Playfair Display", serif;
+.reviews {
+  margin: 0;
+  color: white;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -207,49 +209,72 @@ margin-bottom: 13px;
   margin-left: 863px;
 }
 
-.li-2{
-    width: 255px;
-    height: 292px;
-    outline: 1px solid red;
+.li-2 {
+  width: 255px;
+  height: 292px;
+  outline: 1px solid red;
 }
 
-.ul-reviews{
-    display: flex;
-    list-style: none;
+.ul-reviews {
+  display: flex;
+  list-style: none;
 }
 
-.ii{
-    align-items: center;
-    justify-content: center;
-    margin-left: 18px;
-    margin-bottom: 115px;
+.ii {
+  align-items: center;
+  justify-content: center;
+  margin-left: 18px;
+  margin-bottom: 115px;
 }
 
-.cards{
-    background-image: linear-gradient(#00E5E6 7%, #00A8F7 26%, #9A76F9 63%, #cc5ec2 100%);
-    width: 305px;
-    height: 350px;
-    margin-left: 498px;
-    list-style: none;
-    border-radius: 15px;
+.cards {
+  background-image: linear-gradient(
+    #00e5e6 7%,
+    #00a8f7 26%,
+    #9a76f9 63%,
+    #cc5ec2 100%
+  );
+  width: 305px;
+  height: 350px;
+  margin-left: 498px;
+  list-style: none;
+  border-radius: 15px;
 }
 
-.cards-in img{
-    width: 31px;
-    height: 31px;
+.cards-in img {
+  width: 31px;
+  height: 31px;
 }
 
-.cards-h2{
-    color: white;
-              font-family: "Roboto", sans-serif;
+.cards-h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.cards-2{
-    background-image: linear-gradient(#FF68B4 0%, #FF45E1 26%, #CE3AFF 63%, #8961FF 100%);
-    width: 305px;
-    height: 350px;
-    border-radius: 15px;
-    display: flexbox;
+.cards-2 {
+  background-image: linear-gradient(
+    #ff68b4 0%,
+    #ff45e1 26%,
+    #ce3aff 63%,
+    #8961ff 100%
+  );
+  width: 305px;
+  height: 350px;
+  border-radius: 15px;
+  margin-left: 850px;
+}
+
+.cards-3 {
+  background-image: linear-gradient(
+    #ffe128 0%,
+    #ff9b5c 30%,
+    #ff8381 63%,
+    #ff5489 100%
+  );
+  width: 305px;
+  height: 350px;
+  border-radius: 15px;
+  list-style: none;
 }
