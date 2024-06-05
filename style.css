@@ -264,6 +264,7 @@
   height: 350px;
   border-radius: 15px;
   margin-left: 850px;
+  list-style: none;
 }
 
 .cards-3 {
@@ -277,4 +278,19 @@
   height: 350px;
   border-radius: 15px;
   list-style: none;
+}
+
+.container-review{
+  max-width: 951px;
+  max-height: 292px;
+  outline: solid 1px green;
+   position: absolute;
+justify-content: center;
+align-items: center;
+align-items: center;
+   margin: 0 auto;
+}
+
+.container-review li{
+  justify-content: center;
 }
