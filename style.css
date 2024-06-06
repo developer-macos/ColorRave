@@ -283,7 +283,7 @@
   background-image: url(./images/backgr-img-reviwes.png),
     url(./images/flowers.png);
   background-size: cover, 340px;
-  height: 920px;
+  height: 620px;
   background-repeat: no-repeat;
   background-position: center,  bottom;
   display: flex;
@@ -310,4 +310,24 @@
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
+}
+
+.order{
+  background-image: url(./images/backgr-orderpng.png);
+  background-size: cover;
+  height: 509px;
+  margin: 0;
+}
+
+.h2-order{
+  margin: 0;
+  color: white;
+  font-size: 48px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-self: center;
+  margin-left: 855px;
 }
