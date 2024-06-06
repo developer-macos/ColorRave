@@ -2,6 +2,7 @@
   --color-for-background-menu: #012d63;
   --color: #c7c7c7;
   --color-for-backgr-butt: #8e32c6;
+  --color-review-p: #d8d8d8;
 }
 
 .header {
@@ -185,7 +186,6 @@
   padding-right: 50px;
 }
 
-
 .img-reviews {
   margin-top: 169px;
 }
@@ -226,6 +226,7 @@
     #9a76f9 63%,
     #cc5ec2 100%
   );
+  box-shadow: (#00e5e6 7%, #00a8f7 26%, #9a76f9 63%, #cc5ec2 100%);
   width: 255px;
   height: 302px;
   margin-left: 498px;
@@ -254,10 +255,7 @@
     #ce3aff 63%,
     #8961ff 100%
   );
-  box-shadow:     #ff68b4 0%,
-    #ff45e1 26%,
-    #ce3aff 63%,
-    #8961ff 100%;
+  box-shadow: #ff68b4 0%, #ff45e1 26%, #ce3aff 63%, #8961ff 100%;
   width: 255px;
   height: 302px;
   border-radius: 15px;
@@ -272,6 +270,7 @@
     #ff8381 63%,
     #ff5489 100%
   );
+  box-shadow: bottom (#ffe128 0%, #ff9b5c 30%, #ff8381 63%, #ff5489 100%);
   width: 255px;
   height: 292px;
   border-radius: 15px;
@@ -280,15 +279,35 @@
   margin-bottom: 10px;
 }
 
-.review-backgr{
-  background-image:  url(./images/backgr-img-reviwes.png),url(./images/flowers.png) ;
-  background-size: cover, 340px ;
+.review-backgr {
+  background-image: url(./images/backgr-img-reviwes.png),
+    url(./images/flowers.png);
+  background-size: cover, 340px;
   height: 920px;
   background-repeat: no-repeat;
   background-position: center, left bottom;
   display: flex;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   align-items: center;
-gap: 20px;
-margin: 0;
+  gap: 20px;
+  margin: 0;
+}
+
+.review-h2 {
+  background-image: url(./images/backgr-img-reviwes.png);
+}
+.h2-review {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.review-p {
+  color: var(--color-review-p);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
 }
