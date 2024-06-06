@@ -285,11 +285,11 @@
   background-size: cover, 340px;
   height: 920px;
   background-repeat: no-repeat;
-  background-position: center, left bottom;
+  background-position: center,  bottom;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 93px;
   margin: 0;
 }
 
