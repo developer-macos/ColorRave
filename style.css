@@ -185,14 +185,6 @@
   padding-right: 50px;
 }
 
-.backgr-img-reviews {
-  background-image: url(./images/flowers.png),
-    url(./images/backgr-img-reviwes.png);
-  background-size: 340px, cover;
-  height: 620px;
-  background-repeat: no-repeat;
-  background-position: left bottom, center;
-}
 
 .img-reviews {
   margin-top: 169px;
@@ -280,17 +272,16 @@
   list-style: none;
 }
 
-.container-review{
-  max-width: 951px;
-  max-height: 292px;
-  outline: solid 1px green;
-   position: absolute;
-justify-content: center;
-align-items: center;
-align-items: center;
-   margin: 0 auto;
-}
-
 .container-review li{
   justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.review-backgr{
+  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.png);
+  background-size: cover, 340px;
+  height: 620px;
+  background-repeat: no-repeat;
+  background-position: center, left bottom;
 }
