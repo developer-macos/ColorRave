@@ -219,7 +219,7 @@
   margin-bottom: 115px;
 }
 
-.cards {
+/* .cards {
   background-image: linear-gradient(
     #00e5e6 7%,
     #00a8f7 26%,
@@ -270,18 +270,20 @@
   height: 350px;
   border-radius: 15px;
   list-style: none;
-}
+} */
 
 .container-review li{
   justify-content: center;
 align-items: center;
 align-content: center;
+display: flex;
+flex-wrap: wrap;
 }
 
 .review-backgr{
-  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.png);
-  background-size: cover, 340px;
-  height: 620px;
+  background-image:  url(./images/backgr-img-reviwes.png),url(./images/flowers.png) ;
+  background-size: cover, 340px ;
+  height: 920px;
   background-repeat: no-repeat;
   background-position: center, left bottom;
 }
