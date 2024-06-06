@@ -219,18 +219,19 @@
   margin-bottom: 115px;
 }
 
-/* .cards {
+.cards {
   background-image: linear-gradient(
     #00e5e6 7%,
     #00a8f7 26%,
     #9a76f9 63%,
     #cc5ec2 100%
   );
-  width: 305px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   margin-left: 498px;
   list-style: none;
   border-radius: 15px;
+  order: 1;
 }
 
 .cards-in img {
@@ -243,6 +244,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 24px;
 }
 
 .cards-2 {
@@ -252,11 +254,11 @@
     #ce3aff 63%,
     #8961ff 100%
   );
-  width: 305px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   border-radius: 15px;
-  margin-left: 850px;
   list-style: none;
+  order: 2;
 }
 
 .cards-3 {
@@ -266,18 +268,12 @@
     #ff8381 63%,
     #ff5489 100%
   );
-  width: 305px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   border-radius: 15px;
   list-style: none;
-} */
-
-.container-review li{
-  justify-content: center;
-align-items: center;
-align-content: center;
-display: flex;
-flex-wrap: wrap;
+  order: 3;
+  margin-left: 1000px;
 }
 
 .review-backgr{
