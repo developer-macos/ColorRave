@@ -219,7 +219,7 @@
     #cc5ec2 100%
   );
   width: 302px;
-  height: 302px;
+  height: 350px;
   margin-left: 648px;
   list-style: none;
   border-radius: 15px;
@@ -322,5 +322,49 @@
   font-style: normal;
   display: flex;
   justify-self: center;
-  margin-left: 855px;
+  margin-left: 1055px;
+}
+
+.form-order{
+  width: 690px;
+  height: 90px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+  margin-top: 33px;
+margin-left: 800px;
+}
+
+.from-country{
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+  margin-left: 850px;
+}
+
+.form-city{
+    width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+  margin-left: 850px;
+}
+
+.form-adress{
+      width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 850px;
+}
+
+.butt-order{
+  width: 248px;
+  height: 68px;
+  background-color: var(--color-for-backgr-butt);
+  border-radius: 16px;
+  color: white;
+  border: none;
+  margin-left: 1000px;
+  margin-top: 19px;
+  cursor: pointer;
 }
