@@ -191,7 +191,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  margin-left: 863px;
+  margin-left: 1083px;
 }
 
 .li-2 {
@@ -218,9 +218,9 @@
     #9a76f9 63%,
     #cc5ec2 100%
   );
-  width: 255px;
+  width: 302px;
   height: 302px;
-  margin-left: 498px;
+  margin-left: 648px;
   list-style: none;
   border-radius: 15px;
     box-shadow: 0px 5px 1px 5px #9a76f9 , 0px 15px 1px 5px #00a8f7;
@@ -249,8 +249,8 @@
           );
           box-shadow: 0px 5px 1px 5px #8961ff, 0px 15px 1px 5px #ff68b4;
           
-  width: 255px;
-  height: 302px;
+  width: 302px;
+  height: 350px;
   border-radius: 15px;
   list-style: none;
   order: 2;
@@ -264,8 +264,8 @@
     #ff5489 100%
   );
   box-shadow: 0px 5px 1px 5px #ff5489, 0px 15px 1px 5px #ff8381;
-  width: 255px;
-  height: 302px;
+  width: 302px;
+  height: 350px;
   border-radius: 15px;
   list-style: none;
   order: 3;
