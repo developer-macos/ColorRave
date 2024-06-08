@@ -167,17 +167,9 @@
   text-align: center;
 }
 
-.li-- {
-  border-left: white solid 1px;
-  border-right: white solid 1px;
-}
-
 .li- {
   width: 350px;
   height: 406px;
-  outline: 1px solid green;
-  padding-left: 95px;
-  padding-right: 95px;
 }
 
 .li-1 {
@@ -270,11 +262,10 @@
   );
   box-shadow: bottom (#ffe128 0%, #ff9b5c 30%, #ff8381 63%, #ff5489 100%);
   width: 255px;
-  height: 292px;
+  height: 302px;
   border-radius: 15px;
   list-style: none;
   order: 3;
-  margin-bottom: 10px;
 }
 
 .review-backgr {
