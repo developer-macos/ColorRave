@@ -152,7 +152,6 @@
   max-width: 1710px;
   margin: 0 auto;
   margin-bottom: 0;
-  outline: solid 1px red;
 }
 
 .div {
@@ -204,7 +203,6 @@
 .li-2 {
   width: 255px;
   height: 292px;
-  outline: 1px solid red;
 }
 
 .ul-reviews {
