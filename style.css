@@ -223,7 +223,7 @@
   margin-left: 498px;
   list-style: none;
   border-radius: 15px;
-    box-shadow: 0px 10px 5px 5px #9a76f9 , 0px 15px 5px 5px #cc5ec2;
+    box-shadow: 0px 5px 1px 5px #9a76f9 , 0px 15px 1px 5px #00a8f7;
   order: 1;
   }
   
@@ -247,7 +247,7 @@
           #ce3aff 63%,
           #8961ff 100%
           );
-          box-shadow: #ff68b4 0%, #ff45e1 26%, #ce3aff 63%, #8961ff 100%;
+          box-shadow: 0px 5px 1px 5px #8961ff, 0px 15px 1px 5px #ff68b4;
           
   width: 255px;
   height: 302px;
@@ -263,7 +263,7 @@
     #ff8381 63%,
     #ff5489 100%
   );
-  box-shadow: bottom (#ffe128 0%, #ff9b5c 30%, #ff8381 63%, #ff5489 100%);
+  box-shadow: 0px 5px 1px 5px #ff5489, 0px 15px 1px 5px #ff8381;
   width: 255px;
   height: 302px;
   border-radius: 15px;
