@@ -277,7 +277,7 @@
   background-size: cover, 340px;
   height: 620px;
   background-repeat: no-repeat;
-  background-position: center,  bottom;
+  background-position: center,  left bottom;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -321,7 +321,7 @@
   font-style: normal;
   display: flex;
   justify-self: center;
-  margin-left: 700px;
+  margin-left: 800px;
 }
 
 .form-order{
@@ -338,7 +338,7 @@ margin-left: 800px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 .form-city{
@@ -346,14 +346,14 @@ margin-left: 800px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 .form-adress{
       width: 580px;
   height: 50px;
   border-radius: 50px;
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 .butt-order{
@@ -363,7 +363,7 @@ margin-left: 800px;
   border-radius: 16px;
   color: white;
   border: none;
-  margin-left: 800px;
+  margin-left: 900px;
   margin-top: 19px;
   cursor: pointer;
 }
