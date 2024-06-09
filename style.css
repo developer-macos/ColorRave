@@ -383,6 +383,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
+  margin: 0;
 }
 
 .footer-p{
@@ -391,4 +392,17 @@
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
+  margin: 0;
+}
+
+.footer-section{
+  align-items: flex-end;
+}
+.footer-p-pt{
+      color: white;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+    margin: 0;
 }
