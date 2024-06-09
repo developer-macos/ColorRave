@@ -246,7 +246,7 @@
     #ce3aff 63%,
     #8961ff 100%
   );
-  box-shadow: 0px 10px 1px 5px #8961ff, 0px 25px 1px 5px #ff68b4;
+  box-shadow: 0px 10px 2px 5px #8961ff, 1px 25px 2px 5px #8961ff;
 
   width: 302px;
   height: 350px;
