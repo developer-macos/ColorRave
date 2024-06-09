@@ -176,7 +176,6 @@
 .li-1 {
   padding-left: 50px;
   padding-right: 50px;
-
 }
 
 .img-reviews {
@@ -223,32 +222,32 @@
   margin-left: 648px;
   list-style: none;
   border-radius: 15px;
-    box-shadow: 0px 10px 1px 5px #9a76f9 , 0px 25px 1px 5px #00a8f7;
+  box-shadow: 0px 10px 1px 5px #9a76f9, 0px 25px 1px 5px #00a8f7;
   order: 1;
-  }
-  
-  .cards-in img {
-    width: 31px;
-    height: 31px;
-    }
-    
-    .cards-h2 {
-      color: white;
-      font-family: "Roboto", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 24px;
-      }
-      
-      .cards-2 {
-        background-image: linear-gradient(
-          #ff68b4 0%,
-          #ff45e1 26%,
-          #ce3aff 63%,
-          #8961ff 100%
-          );
-          box-shadow: 0px 10px 1px 5px #8961ff, 0px 25px 1px 5px #ff68b4;
-          
+}
+
+.cards-in img {
+  width: 31px;
+  height: 31px;
+}
+
+.cards-h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.cards-2 {
+  background-image: linear-gradient(
+    #ff68b4 0%,
+    #ff45e1 26%,
+    #ce3aff 63%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 10px 1px 5px #8961ff, 0px 25px 1px 5px #ff68b4;
+
   width: 302px;
   height: 350px;
   border-radius: 15px;
@@ -277,7 +276,7 @@
   background-size: cover, 340px;
   height: 620px;
   background-repeat: no-repeat;
-  background-position: center,  left bottom;
+  background-position: center, left bottom;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -304,18 +303,18 @@
   font-size: 12px;
 }
 
-.order{
+.order {
   background-image: url(./images/backgr-orderpng.png);
   background-size: cover;
   height: 509px;
   margin: 0;
 }
 
-.h2-order{
+.h2-order {
   margin: 0;
   color: white;
   font-size: 48px;
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -324,16 +323,16 @@
   margin-left: 800px;
 }
 
-.form-order{
+.form-order {
   width: 690px;
   height: 90px;
   border-radius: 50px;
   margin-bottom: 19px;
   margin-top: 33px;
-margin-left: 800px;
+  margin-left: 800px;
 }
 
-.from-country{
+.from-country {
   width: 580px;
   height: 50px;
   border-radius: 50px;
@@ -341,22 +340,22 @@ margin-left: 800px;
   margin-left: 700px;
 }
 
-.form-city{
-    width: 580px;
+.form-city {
+  width: 580px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
   margin-left: 700px;
 }
 
-.form-adress{
-      width: 580px;
+.form-adress {
+  width: 580px;
   height: 50px;
   border-radius: 50px;
   margin-left: 700px;
 }
 
-.butt-order{
+.butt-order {
   width: 248px;
   height: 68px;
   background-color: var(--color-for-backgr-butt);
@@ -368,7 +367,8 @@ margin-left: 800px;
   cursor: pointer;
 }
 
-.hr{
-  margin: 0; color: white;
+.hr {
+  margin: 0;
+  color: white;
   width: 1740px;
 }
