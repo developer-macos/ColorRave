@@ -306,7 +306,7 @@
 .order {
   background-image: url(./images/backgr-orderpng.png);
   background-size: cover;
-  height: 509px;
+  height: 609px;
   margin: 0;
 }
 
@@ -362,8 +362,7 @@
   border-radius: 16px;
   color: white;
   border: none;
-  margin-left: 700px;
-  margin-top: 19px;
+  margin-left: 800px;
   cursor: pointer;
 }
 
