@@ -282,7 +282,6 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 93px;
-  outline: 1px solid red;
   margin: 0;
 }
 
@@ -367,4 +366,9 @@ margin-left: 900px;
   margin-left: 1100px;
   margin-top: 19px;
   cursor: pointer;
+}
+
+.hr{
+  margin: 0; color: white;
+  width: cover;
 }
