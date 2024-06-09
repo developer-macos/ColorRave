@@ -372,3 +372,23 @@
   color: white;
   width: 1740px;
 }
+
+.footer{
+  background-color: #021635;
+}
+
+.section-footer{
+  color: white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.footer-p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
