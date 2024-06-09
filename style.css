@@ -321,7 +321,7 @@
   font-style: normal;
   display: flex;
   justify-self: center;
-  margin-left: 955px;
+  margin-left: 700px;
 }
 
 .form-order{
@@ -338,7 +338,7 @@ margin-left: 800px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 850px;
+  margin-left: 500px;
 }
 
 .form-city{
@@ -346,14 +346,14 @@ margin-left: 800px;
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 850px;
+  margin-left: 500px;
 }
 
 .form-adress{
       width: 580px;
   height: 50px;
   border-radius: 50px;
-  margin-left: 850px;
+  margin-left: 500px;
 }
 
 .butt-order{
@@ -363,12 +363,12 @@ margin-left: 800px;
   border-radius: 16px;
   color: white;
   border: none;
-  margin-left: 1100px;
+  margin-left: 800px;
   margin-top: 19px;
   cursor: pointer;
 }
 
 .hr{
   margin: 0; color: white;
-  width: 2540px;
+  width: 1740px;
 }
