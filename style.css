@@ -320,7 +320,7 @@
   font-style: normal;
   display: flex;
   justify-self: center;
-  margin-left: 800px;
+  margin-left: 700px;
 }
 
 .form-order {
@@ -329,7 +329,7 @@
   border-radius: 50px;
   margin-bottom: 19px;
   margin-top: 33px;
-  margin-left: 800px;
+  margin-left: 700px;
 }
 
 .from-country {
@@ -362,7 +362,7 @@
   border-radius: 16px;
   color: white;
   border: none;
-  margin-left: 900px;
+  margin-left: 700px;
   margin-top: 19px;
   cursor: pointer;
 }
