@@ -190,7 +190,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  margin-left: 1083px;
+  margin-left: 850px;
 }
 
 .li-2 {
@@ -219,7 +219,7 @@
   );
   width: 302px;
   height: 350px;
-  margin-left: 648px;
+  margin-left: 348px;
   list-style: none;
   border-radius: 15px;
   box-shadow: 0px 10px 1px 5px #9a76f9, 0px 25px 1px 5px #00a8f7;
@@ -320,16 +320,19 @@
   font-style: normal;
   display: flex;
   justify-self: center;
-  margin-left: 700px;
+  margin-left: 850px;
+  margin-bottom: 33px;
 }
 
 .form-order {
   width: 690px;
-  height: 90px;
+  height: 60px;
   border-radius: 50px;
   margin-bottom: 19px;
   margin-top: 33px;
-  margin-left: 700px;
+  margin-left: 560px;
+  font-size: 28px;
+  border: none;
 }
 
 .from-country {
@@ -337,7 +340,8 @@
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 700px;
+  margin-left: 600px;
+  font-size: 28px;
 }
 
 .form-city {
@@ -345,14 +349,16 @@
   height: 50px;
   border-radius: 50px;
   margin-bottom: 19px;
-  margin-left: 700px;
+  margin-left: 600px;
+  font-size: 28px;
 }
 
 .form-adress {
   width: 580px;
   height: 50px;
   border-radius: 50px;
-  margin-left: 700px;
+  margin-left: 600px;
+  font-size: 28px;
 }
 
 .butt-order {
@@ -363,7 +369,12 @@
   color: white;
   border: none;
   margin-left: 800px;
+  margin-top: 20px;
   cursor: pointer;
+  font-size: 24px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hr {
@@ -372,41 +383,45 @@
   width: 1740px;
 }
 
-.footer{
+.footer {
   background-color: #021635;
 }
 
-.section-footer{
+.section-footer {
   color: white;
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   margin: 0;
 }
 
-.footer-p{
-    color: white;
-    font-family: "Roboto", sans-serif;
+.footer-p {
+  color: white;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   margin: 0;
 }
 
-.footer-section{
+.footer-section {
   align-items: flex-end;
 }
-.footer-p-pt{
-      color: white;
+.footer-p-pt {
+  color: white;
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-    margin: 0;
+  margin: 0;
 }
 
-.from-in-form{
+.from-in-form {
   background-color: white;
   color: #959595;
+}
+
+.input{
+  border: none;
 }
