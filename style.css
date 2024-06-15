@@ -271,10 +271,9 @@
 }
 
 .review-backgr {
-  background-image: url(./images/backgr-img-reviwes.png),
-    url(./images/flowers.png);
-  background-size: cover, 340px;
-  height: 620px;
+  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.png);
+  background-size: cover 340px;
+  height: 520px 380px;
   background-repeat: no-repeat;
   background-position: center, left bottom;
   display: flex;
@@ -285,7 +284,7 @@
 }
 
 .review-h2 {
-  background-image: url(./images/backgr-img-reviwes.png);
+background-image: url(./images/backgr-img-reviwes.png);
 }
 .h2-review {
   color: white;
@@ -425,3 +424,10 @@
 .input{
   border: none;
 }
+
+/* .flowers-backgr{
+      background-size: 340px;
+      background-position: left bottom;
+      background-repeat: ;
+      height: 380px;
+} */
