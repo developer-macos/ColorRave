@@ -438,4 +438,7 @@
   font-size: 28px;
   width: 250px;
   height: 50px;
+  border: none;
+  border-radius: 50px;
+  margin-left: -257px;
 }
