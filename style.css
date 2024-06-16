@@ -271,7 +271,8 @@
 }
 
 .review-backgr {
-  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.svg);
+  background-image: url(./images/backgr-img-reviwes.png),
+    url(./images/flowers.svg);
   background-size: cover 340px;
   height: 620px 380px;
   background-repeat: no-repeat;
@@ -284,7 +285,7 @@
 }
 
 .review-h2 {
-background-image: url(./images/backgr-img-reviwes.png);
+  background-image: url(./images/backgr-img-reviwes.png);
 }
 .h2-review {
   color: white;
@@ -371,7 +372,7 @@ background-image: url(./images/backgr-img-reviwes.png);
   margin-top: 20px;
   cursor: pointer;
   font-size: 24px;
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -421,7 +422,7 @@ background-image: url(./images/backgr-img-reviwes.png);
   color: #959595;
 }
 
-.input{
+.input {
   border: none;
 }
 
@@ -431,3 +432,10 @@ background-image: url(./images/backgr-img-reviwes.png);
       background-repeat: ;
       height: 380px;
 } */
+
+.button-order{
+  background-color: white;
+  font-size: 28px;
+  width: 250px;
+  height: 50px;
+}
