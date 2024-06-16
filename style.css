@@ -271,9 +271,9 @@
 }
 
 .review-backgr {
-  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.png);
+  background-image: url(./images/backgr-img-reviwes.png), url(./images/flowers.svg);
   background-size: cover 340px;
-  height: 520px 380px;
+  height: 620px 380px;
   background-repeat: no-repeat;
   background-position: center, left bottom;
   display: flex;
