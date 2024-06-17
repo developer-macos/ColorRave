@@ -476,11 +476,6 @@
   background-size: cover;
 }
 
-.ul-container{
-    max-width: 1710px;
-  margin: 0 auto;
-  margin-bottom: 0;
-}
 
 .colorave-container{
     max-width: 1710px;
@@ -490,6 +485,12 @@
 
 .premium-container{
     max-width: 1710px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.container{
+    max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 0;
 }
