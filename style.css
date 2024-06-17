@@ -186,10 +186,6 @@
   margin-left: 850px;
 }
 
-.li-2 {
-  width: 255px;
-  height: 292px;
-}
 
 .ul-reviews {
   display: flex;
@@ -210,8 +206,8 @@
     #9a76f9 63%,
     #cc5ec2 100%
   );
-  width: 302px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   margin-left: 348px;
   list-style: none;
   border-radius: 15px;
@@ -230,6 +226,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
+  margin-left: 10px;
 }
 
 .cards-2 {
@@ -239,10 +236,10 @@
     #ce3aff 63%,
     #8961ff 100%
   );
-  box-shadow: 0px 10px 2px 5px #8961ff, 1px 25px 2px 5px #8961ff;
+  box-shadow: 0px 10px 2px 5px #ff45e1, 0px 25px 2px 5px #ce3aff;
 
-  width: 302px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   border-radius: 15px;
   list-style: none;
   order: 2;
@@ -256,8 +253,8 @@
     #ff5489 100%
   );
   box-shadow: 0px 10px 1px 5px #ff5489, 0px 25px 1px 5px #ff8381;
-  width: 302px;
-  height: 350px;
+  width: 255px;
+  height: 292px;
   border-radius: 15px;
   list-style: none;
   order: 3;
@@ -372,7 +369,7 @@
 .hr {
   margin: 0;
   color: white;
-  width: 1905px;
+  width: 1800px;
 }
 
 .footer {
