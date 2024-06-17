@@ -148,12 +148,6 @@
   position: absolute;
 }
 
-.container {
-  max-width: 1710px;
-  margin: 0 auto;
-  margin-bottom: 0;
-}
-
 .div {
   margin: 0 auto;
 }
@@ -480,4 +474,22 @@
   background-image: url(./images/backgr-orderpng.png);
   height: 20px;
   background-size: cover;
+}
+
+.ul-container{
+    max-width: 1710px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.colorave-container{
+    max-width: 1710px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.premium-container{
+    max-width: 1710px;
+  margin: 0 auto;
+  margin-bottom: 0;
 }
