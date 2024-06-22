@@ -56,7 +56,7 @@
 
 .tracking-in-expand:hover{
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
+}  
 
 /* .kenburns-top-right:hover {
 	animation: kenburns-top-right 5s ease-in-out both;
@@ -507,7 +507,7 @@
 }
 
 .container {
-  max-width: 1640px;
+  max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 0;
 }
