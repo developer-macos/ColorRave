@@ -27,13 +27,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <title>ColorRawe</title>
   </head>
   <body>
     <header class="header">
-      <ul class="ul-menu container ">
-        <li class="img tracking-in-expand">
+      <ul class="ul-menu container">
+        <li class="img text-flicker-in-glow">
           <img
             src="./images/logo-and-for-home-page-menu.png"
             alt="Logo"
@@ -41,19 +41,26 @@
             height="60"
           />
         </li>
-        <li class="white-color text-focus-in"><a href="#">Main page</a></li>
-        <li><a href="#" class="benefits text-shadow-drop-top">Benefits</a></li>
+        <li class="white-color text-flicker-in-glow"><a href="#">Main page</a></li>
+        <li><a href="#Benefits" class="benefits text-flicker-in-glow">Benefits</a></li>
         <li>
-          <a href="#" class="benefits text-shadow-drop-top">Advantages</a>
+          <a href="#Advantages" class="benefits text-flicker-in-glow">Advantages</a>
         </li>
-        <li><a class="benefits text-shadow-drop-top" href="#">Reviews</a></li>
-        <li><a class="benefits text-shadow-drop-top" href="#">Contacts</a></li>
-        <li><a class="benefits text-shadow-drop-top" href="#">Order</a></li>
-        <li><a class="lang text-shadow-drop-top" href="ua.html">Ua</a><a href="index.html" class="l tracking-in-expand">Eng</a></li>
+        <li>
+          <a class="benefits text-flicker-in-glow" href="#Reviews"
+            >Reviews</a
+          >
+        </li>
+        <li><a class="benefits text-flicker-in-glow" href="#Contacts">Contacts</a></li>
+        <li><a class="benefits text-flicker-in-glow" href="#Order">Order</a></li>
+        <li>
+          <a class="lang ua text-flicker-in-glow" href="ua.html">Ua</a
+          ><a href="index.html" class="l text-flicker-in-glow">Eng</a>
+        </li>
       </ul>
     </header>
     <main>
-      <div class="background-img kenburns-top-right">
+      <div class="background-img kenburns-top-right" id="Benefits">
         <section class="colorave-container">
           <div class="div">
             <img
@@ -73,12 +80,14 @@
               sneakers as we do. <br />
               Good luck finding your way in the world of custom sneakers.
             </p>
-            <button class="butt jello-horizontal" type="button">Buy my Nike</button>
+            <button class="butt jello-horizontal" type="button">
+              Buy my Nike
+            </button>
           </div>
         </section>
       </div>
       <section class="section-background">
-        <section class="premium-container">
+        <section class="premium-container" id="Advantages">
           <ul class="ul-hero">
             <li class="li- li-1 jello-horizontal">
               <h2 class="li-h2">
@@ -119,7 +128,7 @@
         </section>
       </section>
       <hr class="hr" />
-      <section class="review-h2">
+      <section class="review-h2" id="Reviews">
         <h2 class="reviews">Reviews</h2>
       </section>
       <section class="flowers-backgr">
@@ -131,18 +140,24 @@
             </h2>
             <p class="p-date">25.11</p>
             <div class="container-test">
-            <img class="img-cards" src="./images/man.png" width="31" height="31" alt="" />
-            <div>
-              <h2 class="h2-review">John Teylor</h2>
-              <p class="review-p">With us from 2018</p>
-            </div>
+              <img
+                class="img-cards"
+                src="./images/man.png"
+                width="31"
+                height="31"
+                alt=""
+              />
+              <div>
+                <h2 class="h2-review">John Teylor</h2>
+                <p class="review-p">With us from 2018</p>
+              </div>
             </div>
           </li>
           <li class="cards-2 jello-horizontal">
             <h2 class="cards-h2">
               I'm very happy with this color scheme. They match all my clothes.
             </h2>
-            <p class="p-date">05.01</p> 
+            <p class="p-date">05.01</p>
             <div class="container-test">
               <img class="img-cards" src="./images/woman.png" alt="woman" />
               <div>
@@ -150,7 +165,6 @@
                 <p class="review-p">With us from 2020</p>
               </div>
             </div>
-            
           </li>
           <li class="cards-3 jello-horizontal">
             <h2 class="cards-h2">
@@ -159,7 +173,11 @@
             </h2>
             <p class="p-date">18.06</p>
             <div class="container-test">
-              <img class="img-cards" src="./images/man-2.png" alt="second man" />
+              <img
+                class="img-cards"
+                src="./images/man-2.png"
+                alt="second man"
+              />
               <div>
                 <h2 class="h2-review">Tom Maquare</h2>
                 <p class="review-p">With us from 2019</p>
@@ -168,66 +186,81 @@
           </li>
         </ul>
       </section>
-              <hr class="hr"/>
-      <section class="order">
+      <hr class="hr" />
+      <section class="order" id="Order">
         <h2 class="h2-order">Order</h2>
         <form>
-            <input
-              class="form-order"
-              type="text"
-              placeholder="Write your email"
-              
-            />
-            <button class="button-order" type="button">Confirm</button>
-          <input class="from-country input" type="text" placeholder="Your Country" />
+          <input
+            class="form-order"
+            type="text"
+            placeholder="Write Your Email"
+          />
+          <button class="button-order" type="button">Confirm</button>
+          <input
+            class="from-country input"
+            type="text"
+            placeholder="Your Country"
+          />
           <input class="form-city input" type="text" placeholder="Your City" />
-          <input class="form-adress input" type="text" placeholder="Your Address" />
-        <button class="butt-order input">Order my Nike</button>
+          <input
+            class="form-adress input"
+            type="text"
+            placeholder="Your Address"
+          />
+          <button class="butt-order input">Order my Nike</button>
         </form>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="Contacts">
       <div class="container">
-      <div class="div-footer">
-      <section>
-        <h2 class="section-footer">Have a question?</h2>
-        <h2 class="section-footer">Have a proposal for cooperation?</h2>
-        <h2 class="section-footer">Advertising questions?</h2>
-      </section>
-      <section class="e-mail">
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_support@gmail.com"
-          >ColoRawe_support@gmail.com</a
-        >
-        <br>
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_Cooperation@gmail.com"
-          >ColoRawe_Cooperation@gmail.com</a
-        >
-        <br>
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_Advertising@gmail.com"
-          >ColoRawe_Advertising@gmail.com</a
-        >
-        <br>
-      </section>
+        <div class="div-footer">
+          <section>
+            <h2 class="section-footer">Have a question?</h2>
+            <h2 class="section-footer">Have a proposal for cooperation?</h2>
+            <h2 class="section-footer">Advertising questions?</h2>
+          </section>
+          <section class="e-mail">
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_support@gmail.com"
+              >ColoRawe_support@gmail.com</a
+            >
+            <br />
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_Cooperation@gmail.com"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+            <br />
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_Advertising@gmail.com"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+            <br />
+          </section>
+        </div>
+        <hr class="hr-footer" />
+        <div class="div-footer-2">
+          <section>
+            <p class="footer-p p-1">2024 ColoRawe @All rights reserved</p>
+            <p class="footer-p">United States</p>
+            <p class="-link">
+              Link to my
+              <a
+                class="github-link"
+                target="_blank"
+                href="https://github.com/volodymyr-iarovyi"
+                >Github</a
+              >
+            </p>
+          </section>
+          <section class="footer-section">
+            <img src="./images/logo-and-for-home-page-menu.png" alt="Logo" />
+            <p class="footer-p-pt">С&R</p>
+          </section>
+        </div>
       </div>
-      <hr class="hr-footer">
-      <div class="div-footer-2">
-      <section>
-        <p class="footer-p p-1">2024 ColoRawe @All rights reserved</p>
-        <p class="footer-p">United States</p>
-<p class="-link">Link to my <a class="github-link" target="_blank" href="https://github.com/volodymyr-iarovyi">Github</a></p>
-      </section>    
-      <section class="footer-section">
-        <img src="./images/logo-and-for-home-page-menu.png" alt="Logo" />
-        <p class="footer-p-pt">С&R</p>
-      </section>
-      </div>
-            </div>
     </footer>
   </body>
 </html>

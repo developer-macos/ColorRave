@@ -27,7 +27,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <title>ColorRawe</title>
   </head>
   <body>
@@ -49,7 +49,10 @@
         <li><a class="benefits" href="#">Відгуки</a></li>
         <li><a class="benefits" href="#">Контакти</a></li>
         <li><a class="benefits" href="#">Замовлення</a></li>
-        <li><a class="lang" href="ua.html">Ua</a><a href="index.html" class="l">Eng</a></li>
+        <li>
+          <a class="lang " href="ua.html">Укр</a
+          ><a href="index.html" class=" eng">Англ</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -67,10 +70,12 @@
             <h3 class="cr-3">ColoRawe</h3>
             <h3 class="cr">Твоя мрія Nike</h3>
             <p class="cr-2">
-              На цьому сайті ви можете знайти індивідуальні кросівки Nike своєї мрії.
+              На цьому сайті ви можете знайти індивідуальні кросівки Nike своєї
+              мрії.
               <br />
-             Оригінальна компанія не може створити такі гарні <br> кросівки, як ми. <br />
-Успіхів у пошуку кросівок на замовлення.
+              Оригінальна компанія не може створити такі гарні <br />
+              кросівки, як ми. <br />
+              Успіхів у пошуку кросівок на замовлення.
             </p>
             <button class="butt" type="button">Купи мій Nike</button>
           </div>
@@ -79,7 +84,7 @@
       <section class="section-background">
         <section class="premium-container">
           <ul class="ul-hero">
-            <li class="li- li-1">
+            <li class="li- li-1 jello-horizontal">
               <h2 class="li-h2">
                 Преміум <br />
                 <span class="li-h2 span">Якість</span>
@@ -91,7 +96,7 @@
                 height="240"
               />
             </li>
-            <li class="li-- li-">
+            <li class="li-- li- jello-horizontal">
               <img
                 src="./images/photo-2.png"
                 alt="paint"
@@ -102,7 +107,7 @@
                 Незмивная <br /><span class="li-h2 span">фарба</span>
               </h2>
             </li>
-            <li class="li- li-1">
+            <li class="li- li-1 jello-horizontal">
               <h2 class="li-h2">
                 Швидка <br />
                 <span class="li-h2 span">Доставка</span>
@@ -119,100 +124,135 @@
       </section>
       <hr class="hr" />
       <section class="review-h2">
-        <h2 class="reviews">Reviews</h2>
+        <h2 class="reviews">Відгуки</h2>
       </section>
       <section class="flowers-backgr">
         <ul class="container-review review-backgr">
-          <li class="cards">
+          <li class="cards jello-horizontal">
             <h2 class="cards-h2">
-              Кросівки дуже зручні і добре пофарбовані, за рік нічого не стерлося.
+              Кросівки дуже зручні і добре пофарбовані, за рік нічого не
+              стерлося.
             </h2>
-            <p>25.11</p>
-            <img src="./images/man.png" alt="" />
-            <h2 class="h2-review">John Teylor</h2>
-            <p class="review-p">With us from 2018</p>
+            <p class="p-date">25.11</p>
+            <div class="container-test">
+              <img class="img-cards" src="./images/man.png" alt="" />
+              <div>
+                <h2 class="h2-review">Джон Тейлор</h2>
+                <p class="review-p">З нами с 2018</p>
+              </div>
+            </div>
           </li>
-          <li class="cards-2">
+          <li class="cards-2 jello-horizontal">
             <h2 class="cards-h2">
-              Я дуже задоволений цією кольоровою гамою. Вони пасують до всього мого одягу.
+              Я дуже задоволений цією кольоровою гамою. Вони пасують до всього
+              мого одягу.
             </h2>
-            <p>05.01</p>
-            <img src="./images/woman.png" alt="woman" />
-            <h2 class="h2-review">Elizabeth Garsia</h2>
-            <p class="review-p">With us from 2020</p>
+            <p class="p-date">05.01</p>
+            <div class="container-test">
+              <img class="img-cards" src="./images/woman.png" alt="woman" />
+              <div>
+                <h2 class="h2-review">Елізабет Гарсія</h2>
+                <p class="review-p">З нами с 2020</p>
+              </div>
+            </div>
           </li>
-          <li class="cards-3">
+          <li class="cards-3 jello-horizontal">
             <h2 class="cards-h2">
-              Just right if you need to go to a party. I use them actively, the
-              paint is super.
+              Якраз підійде, якщо вам потрібно піти на вечірку. Користуюся
+              активно, фарба супер.
             </h2>
-            <p>18.06</p>
-            <img src="./images/man-2.png" alt="second man" />
-            <h2 class="h2-review">Tom Maquare</h2>
-            <p class="review-p">With us from 2019</p>
+            <p class="p-date">18.06</p>
+            <div class="container-test">
+              <img
+                class="img-cards"
+                src="./images/man-2.png"
+                alt="second man"
+              />
+              <div>
+                <h2 class="h2-review">Том Макваре</h2>
+                <p class="review-p">З нами с 2019</p>
+              </div>
+            </div>
           </li>
         </ul>
       </section>
-              <hr class="hr"/>
+      <hr class="hr" />
       <section class="order">
-        <h2 class="h2-order">Order</h2>
+        <h2 class="h2-order">Заказати</h2>
         <form>
-            <input
-              class="form-order"
-              type="text"
-              placeholder="Write your email"
-              
-            />
-            <button class="button-order" type="button">Confirm</button>
-          <input class="from-country input" type="text" placeholder="Your Country" />
-          <input class="form-city input" type="text" placeholder="Your City" />
-          <input class="form-adress input" type="text" placeholder="Your Address" />
-        <button class="butt-order input">Order my Nike</button>
+          <input
+            class="form-order"
+            type="text"
+            placeholder="Написати свойю пошту"
+          />
+          <button class="button-order" type="button">Підтвердити</button>
+          <input
+            class="from-country input"
+            type="text"
+            placeholder="Твоя країна"
+          />
+          <input class="form-city input" type="text" placeholder="Твоє місто" />
+          <input
+            class="form-adress input"
+            type="text"
+            placeholder="Вашу адресу"
+          />
+          <button type="submit" class="butt-order input">
+            Заказати свій Nike
+          </button>
         </form>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-      <div class="div-footer">
-      <section>
-        <h2 class="section-footer">Have a question?</h2>
-        <h2 class="section-footer">Have a proposal for cooperation?</h2>
-        <h2 class="section-footer">Advertising questions?</h2>
-      </section>
-      <section class="e-mail">
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_support@gmail.com"
-          >ColoRawe_support@gmail.com</a
-        >
-        <br>
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_Cooperation@gmail.com"
-          >ColoRawe_Cooperation@gmail.com</a
-        >
-        <br>
-        <a
-          class="section-footer footer-a"
-          href="mailto:ColoRawe_Advertising@gmail.com"
-          >ColoRawe_Advertising@gmail.com</a
-        >
-        <br>
-      </section>
+        <div class="div-footer">
+          <section>
+            <h2 class="section-footer">Є питання?</h2>
+            <h2 class="section-footer">Є пропозиція про співпрацю?</h2>
+            <h2 class="section-footer">Питання щодо реклами?</h2>
+          </section>
+          <section class="e-mail">
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_support@gmail.com"
+              >ColoRawe_support@gmail.com</a
+            >
+            <br />
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_Cooperation@gmail.com"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+            <br />
+            <a
+              class="section-footer footer-a"
+              href="mailto:ColoRawe_Advertising@gmail.com"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+            <br />
+          </section>
+        </div>
+        <hr class="hr-footer" />
+        <div class="div-footer-2">
+          <section>
+            <p class="footer-p p-1">2024 ColoRawe @Всі права захищені</p>
+            <p class="footer-p">Сполучені Штати</p>
+            <p class="-link">
+              Link to my
+              <a
+                class="github-link"
+                target="_blank"
+                href="https://github.com/volodymyr-iarovyi"
+                >Github</a
+              >
+            </p>
+          </section>
+          <section class="footer-section">
+            <img src="./images/logo-and-for-home-page-menu.png" alt="Logo" />
+            <p class="footer-p-pt">С&R</p>
+          </section>
+        </div>
       </div>
-      <hr class="hr-footer">
-      <div class="div-footer-2">
-      <section>
-        <p class="footer-p p-1">2024 ColoRawe @All rights reserved</p>
-        <p class="footer-p">United States</p>
-<p class="-link">Link to my <a class="github-link" target="_blank" href="https://github.com/volodymyr-iarovyi">Github</a></p>
-      </section>    
-      <section class="footer-section">
-        <img src="./images/logo-and-for-home-page-menu.png" alt="Logo" />
-        <p class="footer-p-pt">С&R</p>
-      </section>
-      </div>
-            </div>
     </footer>
   </body>
 </html>
