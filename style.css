@@ -111,11 +111,11 @@
   font-weight: 400;
   font-style: normal;
   margin-left: 196px;
-  margin: bottom 40px;
+  margin-bottom: 30px;
 }
 
 .div-img {
-  margin-top: 94px;
+  margin-top: 38px;
   margin-left: 171px;
 }
 
@@ -274,6 +274,13 @@
   order: 2;
 }
 
+.p-date{
+  color: #d8d8d8;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 13px;
+}
+
 .cards-3 {
   background-image: linear-gradient(
     #ffe128 0%,
@@ -351,6 +358,7 @@
   margin-left: 560px;
   font-size: 28px;
   border: none;
+  padding-left: 25px;
 }
 
 .from-country {
@@ -360,6 +368,7 @@
   margin-bottom: 19px;
   margin-left: 600px;
   font-size: 28px;
+  padding-left: 25px;
 }
 
 .form-city {
@@ -369,6 +378,7 @@
   margin-bottom: 19px;
   margin-left: 600px;
   font-size: 28px;
+  padding-left: 25px;
 }
 
 .form-adress {
@@ -377,7 +387,20 @@
   border-radius: 50px;
   margin-left: 600px;
   font-size: 28px;
+  padding-left: 25px;
 }
+
+.container-test{
+  display: flex;
+  align-items: center;
+}
+
+.img-cards{
+  margin-right: 5px;
+  margin-left: 13px;
+}
+
+
 
 .butt-order {
   width: 248px;
