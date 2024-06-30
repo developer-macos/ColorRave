@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,13 +27,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" /><link rel="stylesheet" href="keyframes.css">
-    <title>&#33; Not Offical Complete ColoRawe</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="keyframes.css">
+    <title>ColorRawe</title>
   </head>
   <body>
     <header class="header">
       <ul class="ul-menu container">
-        <li class="img">
+        <li class="img text-flicker-in-glow">
           <img
             src="./images/logo-and-for-home-page-menu.png"
             alt="Logo"
@@ -41,23 +42,27 @@
             height="60"
           />
         </li>
-        <li class="white-color"><a href="#">Головна сторінка</a></li>
-        <li><a href="#" class="benefits">Переваги</a></li>
+        <li class="white-color text-flicker-in-glow"><a href="#">Hauptseite</a></li>
+        <li><a href="#Benefits" class="benefits text-flicker-in-glow">Vorteile</a></li>
         <li>
-          <a href="#" class="benefits">Переваги</a>
+          <a href="#Advantages" class="benefits text-flicker-in-glow">Vorteile</a>
         </li>
-        <li><a class="benefits" href="#">Відгуки</a></li>
-        <li><a class="benefits" href="#">Контакти</a></li>
-        <li><a class="benefits" href="#">Замовлення</a></li>
         <li>
-          <a class="lang " href="ua.html">Укр</a
-          ><a href="index.html" class=" eng">Англ</a>
-          <a href="#">Нім</a>
+          <a class="benefits text-flicker-in-glow" href="#Reviews"
+            >Reviews</a
+          >
+        </li>
+        <li><a class="benefits text-flicker-in-glow" href="#Contacts">Kontakte</a></li>
+        <li><a class="benefits text-flicker-in-glow" href="#Order">Ordnung</a></li>
+        <li>
+          <a class="lang text-flicker-in-glow" href="ua.html">Ua</a
+          ><a href="index.html" class="l text-flicker-in-glow">Eng</a>
+          <a class="ua l" href="#">De</a>
         </li>
       </ul>
     </header>
     <main>
-      <div class="background-img">
+      <div class="background-img kenburns-top-right" id="Benefits">
         <section class="colorave-container">
           <div class="div">
             <img
@@ -68,27 +73,28 @@
               height="125"
             />
             <h3 class="cr-1">С&R</h3>
-            <h3 class="cr-3">ColoRawe</h3>
-            <h3 class="cr">Твоя мрія Nike</h3>
-            <p class="cr-2">
-              На цьому сайті ви можете знайти індивідуальні кросівки Nike своєї
-              мрії.
+            <h3 class="cr-3 text-focus-in">ColoRawe</h3>
+            <h3 class="cr text-focus-in">Your Dream Nike</h3>
+            <p class="cr-2 tracking-in-expand">
+              On this site you can find custom Nike sneakers of your dreams.
               <br />
-              Оригінальна компанія не може створити такі гарні <br />
-              кросівки, як ми. <br />
-              Успіхів у пошуку кросівок на замовлення.
+              The original company can`t create such beautiful <br />
+              sneakers as we do. <br />
+              Good luck finding your way in the world of custom sneakers.
             </p>
-            <button class="butt" type="button">Купи мій Nike</button>
+            <button class="butt jello-horizontal" type="button">
+              Buy my Nike
+            </button>
           </div>
         </section>
       </div>
       <section class="section-background">
-        <section class="premium-container">
+        <section class="premium-container" id="Advantages">
           <ul class="ul-hero">
             <li class="li- li-1 jello-horizontal">
               <h2 class="li-h2">
-                Преміум <br />
-                <span class="li-h2 span">Якість</span>
+                Premium <br />
+                <span class="li-h2 span">Quality</span>
               </h2>
               <img
                 src="./images/photo-1.png"
@@ -104,14 +110,14 @@
                 width="240"
                 height="240"
               />
-              <h2 class="li-h2">
-                Незмивная <br /><span class="li-h2 span">фарба</span>
+              <h2 class="li-h2 jello-horizontal">
+                Indelible <br /><span class="li-h2 span">paint</span>
               </h2>
             </li>
             <li class="li- li-1 jello-horizontal">
               <h2 class="li-h2">
-                Швидка <br />
-                <span class="li-h2 span">Доставка</span>
+                Fast <br />
+                <span class="li-h2 span">shipping</span>
               </h2>
               <img
                 src="./images/photo-3.png"
@@ -124,93 +130,96 @@
         </section>
       </section>
       <hr class="hr" />
-      <section class="review-h2">
-        <h2 class="reviews">Відгуки</h2>
+      <section class="review-h2" id="Reviews">
+        <h2 class="reviews">Reviews</h2>
       </section>
       <section class="flowers-backgr">
         <ul class="container-review review-backgr">
           <li class="cards jello-horizontal">
             <h2 class="cards-h2">
-              Кросівки дуже зручні і добре пофарбовані, за рік нічого не
-              стерлося.
+              Sneakers are very comfortable and well painted, nothing has worn
+              off in a year.
             </h2>
             <p class="p-date">25.11</p>
             <div class="container-test">
-              <img class="img-cards" src="./images/man.png" alt="" />
+              <img
+                class="img-cards"
+                src="./images/man.png"
+                width="31"
+                height="31"
+                alt="John"
+              />
               <div>
-                <h2 class="h2-review">Джон Тейлор</h2>
-                <p class="review-p">З нами с 2018</p>
+                <h2 class="h2-review">John Teylor</h2>
+                <p class="review-p">With us from 2018</p>
               </div>
             </div>
           </li>
           <li class="cards-2 jello-horizontal">
             <h2 class="cards-h2">
-              Я дуже задоволений цією кольоровою гамою. Вони пасують до всього
-              мого одягу.
+              I'm very happy with this color scheme. They match all my clothes.
             </h2>
             <p class="p-date">05.01</p>
             <div class="container-test">
-              <img class="img-cards" src="./images/woman.png" alt="woman" />
+              <img class="img-cards" src="./images/woman.png" alt="Elizabeth" />
               <div>
-                <h2 class="h2-review">Елізабет Гарсія</h2>
-                <p class="review-p">З нами с 2020</p>
+                <h2 class="h2-review">Elizabeth Garsia</h2>
+                <p class="review-p">With us from 2020</p>
               </div>
             </div>
           </li>
           <li class="cards-3 jello-horizontal">
             <h2 class="cards-h2">
-              Якраз підійде, якщо вам потрібно піти на вечірку. Користуюся
-              активно, фарба супер.
+              Just right if you need to go to a party. I use them actively, the
+              paint is super.
             </h2>
             <p class="p-date">18.06</p>
             <div class="container-test">
               <img
                 class="img-cards"
                 src="./images/man-2.png"
-                alt="second man"
+                alt="Tom"
               />
               <div>
-                <h2 class="h2-review">Том Макваре</h2>
-                <p class="review-p">З нами с 2019</p>
+                <h2 class="h2-review">Tom Maquare</h2>
+                <p class="review-p">With us from 2019</p>
               </div>
             </div>
           </li>
         </ul>
       </section>
       <hr class="hr" />
-      <section class="order">
-        <h2 class="h2-order">Замовити</h2>
+      <section class="order" id="Order">
+        <h2 class="h2-order">Order</h2>
         <form>
           <input
             class="form-order"
-            type="email"
-            placeholder="Написати свойю пошту"
+            type="text"
+            placeholder="Write Your Email"
           />
-          <button class="button-order" type="button">Підтвердити</button>
+          <button class="button-order" type="button">Confirm</button>
           <input
             class="from-country input"
             type="text"
-            placeholder="Твоя країна"
+            placeholder="Your Country"
           />
-          <input class="form-city input" type="text" placeholder="Твоє місто" />
+          <input class="form-city input" type="text" placeholder="Your City" />
           <input
             class="form-adress input"
             type="text"
-            placeholder="Вашу адресу"
+            placeholder="Your Address"
           />
-          <button type="submit" class="butt-order input">
-            Замовити свій Nike
-          </button>
+          <button class="butt-order input">Order my Nike</button>
         </form>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="Contacts">
       <div class="container">
         <div class="div-footer">
           <section>
-            <h2 class="section-footer">Є питання?</h2>
-            <h2 class="section-footer">Є пропозиція про співпрацю?</h2>
-            <h2 class="section-footer">Питання щодо реклами?</h2>
+            <h2 class="section-footer">Have a question?</h2>
+            <h2 class="section-footer">Have a proposal for cooperation?</h2>
+            <h2 class="section-footer">Advertising questions?</h2>
           </section>
           <section class="e-mail">
             <a
@@ -236,8 +245,8 @@
         <hr class="hr-footer" />
         <div class="div-footer-2">
           <section>
-            <p class="footer-p p-1">2024 ColoRawe &#64;Всі права захищені</p>
-            <p class="footer-p">Сполучені Штати</p>
+            <p class="footer-p p-1">2024 ColoRawe @All rights reserved</p>
+            <p class="footer-p">United States</p>
             <p class="-link">
               Link to my
               <a
