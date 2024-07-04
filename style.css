@@ -17,6 +17,13 @@
 	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.buut-a{
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
 .white-color a {
   color: white;
   text-decoration: none;
